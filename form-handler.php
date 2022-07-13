@@ -3,13 +3,13 @@ $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
-$email_from = 'contact@convative.com';
+$email_from = 'akshay1012k@gmail.com';
 
 $email_body = "User Name: $name.\n",
               "User email: $visitor_email.\n",
               "User Message: $message.\n";
 
-$to = 'contact@convative.com';
+$to = 'akshayrox4567@gmail.com';
 
 $headers = "From: $email_from \r\n";
 
