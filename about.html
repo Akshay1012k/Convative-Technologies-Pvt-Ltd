@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Convative Technologies Pvt. Ltd.</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/LogoFinal.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="mission.html">MISSION</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+<!-- About Us -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h2>We bring out the most innovative products in our domain.</h2>
+          <p>The solutions we are enrolling out are very unique and innovative.
+            Some of these solutions are already under processing patents.
+            There are a few solutions which exists that automate seed germination tests
+            outside India but those techniques used there are not cost effective and
+            requires high-cost equipment along with a whole process change which is not
+            easily adaptable. <br>Our solution being highly cost effective and with
+            little to no change in the current process, the tests will be automated.</p>
+            <a href="mission.html" class="blue-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/Tech.png">
+        </div>
+      </div>
+      </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>We are a computer vision and machine learning research company that provides customized solutions for agriculture and automotive industries.<br>
+        We would like to bridge the existing gap between technology and an agronomist.</p>
+        <div>
+          <p>© 2022 Convative Technologies</p>
+        </div>
+    </section>
+
+<!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

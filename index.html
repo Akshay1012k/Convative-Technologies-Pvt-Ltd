@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Convative Technologies Pvt. Ltd.</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/LogoFinal.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="mission.html">MISSION</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i></i>
+      </nav>
+
+      <!-- Main Page -->
+
+    <div class="text-box">
+      <h1>CONVATIVE TECHNOLOGIES PRIVATE LIMITED</h1><br>
+      <p>We use technologies like computer vision and machine learning
+      in the field of agriculture to help processes such as yield estimation,
+      automating the process for seed quality tests and phenotyping.
+      We also plan to aid the agricultural research companies with technologies to
+      ease their processes.</p>
+      <a href="mission.html" class="extra-btn">Visit us to know more</a>
+    </div>
+    </section>
+
+    <!-- Services Offered -->
+
+    <section class="services">
+      <h1>Services We Offer</h1> <br>
+
+      <div class="row">
+      <div class="services-col">
+        <h2>Automated crop yield estimation</h2>
+        <p>We will use drone to capture the images of the crops and analyse them for yield using machine learning techniques.</p>
+      </div>
+      <div class="services-col">
+        <h2>Automated crop phenotyping</h2>
+        <p>We will use an android application to capture and measure quantitative phenotyping measurements without any hassle.</p>
+      </div>
+      <div class="services-col">
+        <h2>Seed germination quality analysis</h2>
+        <p>We will use machine vision camera to acquire images and analyse the quality of the seedling right through its initial stages.</p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Tally of projects & etc -->
+
+    <section class="Tally">
+      <h1>Our Team and Work so far</h1>
+
+      <div class="row">
+        <div class="Tally-col">
+          <i class="fa-solid fa-people-group fa-2xl"></i> <h2>250</h2><h3>Team Members</h3>
+        </div>
+        <div class="Tally-col">
+          <i class="fa-solid fa-trophy fa-2xl"></i> <h2>100</h2><h3>Awards Won</h3>
+        </div>
+        <div class="Tally-col">
+          <i class="fa-solid fa-list-check fa-2xl"></i> <h2>199</h2><h3>Projects Done</h3>
+        </div>
+        <div class="Tally-col">
+          <i class="fa-regular fa-face-smile fa-2xl"></i> <h2>450</h2><h3>Happy Clients</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+      <h1>Enroll for our upcoming services</h1>
+      <a href="contact.html" class="extra-btn">CONTACT US</a>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer">
+      <h2>About Us</h2>
+      <p>We are a computer vision and machine learning research company that provides customized solutions for agriculture and automotive industries.<br>
+        We would like to bridge the existing gap between technology and an agronomist.</p>
+        <div>
+          <p>© 2022 Convative Technologies</p>
+        </div>
+    </section>
+
+<!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
