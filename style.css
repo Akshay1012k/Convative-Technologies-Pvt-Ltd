@@ -185,6 +185,9 @@ h2 {
   .row {
     flex-direction: column;
   }
+  .services h1 {
+    font-size: 28px;
+  }
 }
 
 .Tally {
